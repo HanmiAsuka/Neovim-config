@@ -54,3 +54,11 @@ This is my personal Neovim configuration, based on the [LazyVim](https://github.
   ```sh
   nvim
   ```
+
+
+ps: If there is empty space at the bottom of the terminal in Neovim, try these fixes:
+
+- Change your font size. (This happens because the terminal pixel height is not a multiple of the font size.)
+
+- Change your terminal background color. (Use `:hi StatusLine` to find the color, then set it in `Settings > Profiles > Colors > Background`.)
+
