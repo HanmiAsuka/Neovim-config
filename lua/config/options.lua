@@ -3,3 +3,4 @@
 -- Add any additional options here
 ---@diagnostic disable-next-line: undefined-global
 vim.g.python3_host_prog = vim.fn.expand("~/.config/nvim/py3env/bin/python")
+vim.opt.spell = false
